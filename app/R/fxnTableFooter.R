@@ -62,7 +62,7 @@ fxnTableFooter <- function(annualCrop, plantingDate, endDate, growingSeasonLengt
   
   webpageAZMet <- a(
     "AZMet website", 
-    href="https://staging.azmet.arizona.edu/", 
+    href="https://azmet.arizona.edu/", 
     target="_blank"
   )
   
@@ -74,19 +74,19 @@ fxnTableFooter <- function(annualCrop, plantingDate, endDate, growingSeasonLengt
   
   webpageDataVariables <- a(
     "data variables", 
-    href="https://staging.azmet.arizona.edu/about/data-variables", 
+    href="https://azmet.arizona.edu/about/data-variables", 
     target="_blank"
   )
   
   webpageNetworkMap <- a(
     "station locations", 
-    href="https://staging.azmet.arizona.edu/about/network-map", 
+    href="https://azmet.arizona.edu/about/network-map", 
     target="_blank"
   )
   
   webpageStationMetadata <- a(
     "station metadata", 
-    href="https://staging.azmet.arizona.edu/about/station-metadata", 
+    href="https://azmet.arizona.edu/about/station-metadata", 
     target="_blank"
   )
   
@@ -99,7 +99,7 @@ fxnTableFooter <- function(annualCrop, plantingDate, endDate, growingSeasonLengt
           br(), br(),
           "Based on the selected planting date, ", annualCrop, " is estimated to be ", cropGrowthStageText, " at the selected end date. Lengths of crop growth stages are based on September, October, and November planting dates. The time since the planting date is ", daysSincePlanting, " ", dayOrDays, ". The modeled total growing season length for ", annualCrop, " is ", growingSeasonLength, " days.", 
           br(), br(),
-          " Daily AZMet data are from ", urlAPI, " and accessed using the ", urlAzmetr, " R package. Table values from recent dates may be based on provisional data. More information about ", webpageDataVariables, ", ", webpageNetworkMap, ", and ", webpageStationMetadata, " is available on the ", webpageAZMet, ". Users of AZMet data and data applications assume all risks of its use.",
+          " Daily AZMet data are from ", urlAPI, " and accessed using the ", urlAzmetr, " R package. Table values from recent dates may be based on provisional data. More information about ", webpageDataVariables, ", ", webpageNetworkMap, ", and ", webpageStationMetadata, " is available on the ", webpageAZMet, ". Users of AZMet data and related information assume all risks of its use.",
           br(), br(),
           "To cite the above AZMet data, please use: 'Arizona Meteorological Network (", todayYear, ") Arizona Meteorological Network (AZMet) Data. https://azmet.arizona.edu. Accessed ", todayDate, "', along with 'Arizona Meteorological Network (", todayYear, ") Crop Water Use Estimates. https://viz.datascience.arizona.edu/azmet/azmet-crop-water-use-estimates. Accessed ", todayDate, "'.",
           br(), br(),
