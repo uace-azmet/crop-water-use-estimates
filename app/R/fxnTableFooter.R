@@ -68,7 +68,7 @@ fxnTableFooter <- function(annualCrop, plantingDate, endDate, growingSeasonLengt
   
   webpageCode <- a(
     "GitHub page", 
-    href="https://github.com/uace-azmet/azmet-crop-water-use-estimates", 
+    href="https://github.com/uace-azmet/crop-water-use-estimates", 
     target="_blank"
   )
   
